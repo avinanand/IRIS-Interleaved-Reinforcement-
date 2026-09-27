@@ -9,7 +9,6 @@ Official implementation of **IRIS**.
 
 > **TL;DR:** IRIS teaches mathematical reasoning along two axes: solving progressively harder problems and completing solutions with progressively less guidance. Interleaving supervised fine-tuning with reinforcement learning strengthens cross-lingual reasoning, especially in Hindi and Marathi.
 
-## The IRIS method
 
 IRIS combines two complementary curricula:
 
@@ -58,7 +57,7 @@ SFT expects `DATASET_PATH` to be a JSON **file**; GRPO expects a directory of JS
 
 ## Data
 
-IRIS introduces **CL-Math**, with step-level mathematical reasoning annotations in English, Hindi, and Marathi. A small repository release of **500 selected examples per language** is planned; sample files are not yet included.
+IRIS introduces **CL-Math**, with step-level mathematical reasoning annotations in English, Hindi, and Marathi. A small repository release of **500 selected examples per language** will be released.
 
 You can also use your own data: provide JSON records with `question`, `answer`, and `step_wise_answer`, keeping numbered solution steps on separate lines. See the [data formats](docs/training.md#data-formats) for a minimal example.
 
