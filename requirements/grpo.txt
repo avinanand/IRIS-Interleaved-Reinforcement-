@@ -1,0 +1,11 @@
+-r inference.txt
+# Hardware-dependent dependency inventory, not a validated environment.
+# Recover and pin the experiment's Unsloth/TRL/vLLM versions before reproduction.
+# See README.md: Compatibility and reproducibility.
+unsloth
+vllm
+trl
+datasets
+sentence-transformers
+bitsandbytes
+tensorboard

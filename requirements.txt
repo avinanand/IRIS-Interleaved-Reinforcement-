@@ -1,0 +1,4 @@
+# Lightweight data-augmentation dependencies.
+# Install the appropriate requirements/<stage>.txt for GPU workflows.
+together>=1,<2
+tqdm>=4.66,<5

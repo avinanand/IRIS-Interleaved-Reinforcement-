@@ -1,0 +1,38 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+
+# Local datasets, generated results, and experiment artifacts
+/data/
+/dataset/
+/datasets/
+/output/
+/outputs/
+/checkpoints/
+/logs/
+/runs/
+/wandb/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
+unsloth_compiled_cache/

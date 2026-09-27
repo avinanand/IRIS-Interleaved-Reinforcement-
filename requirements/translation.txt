@@ -1,0 +1,6 @@
+-r inference.txt
+bitsandbytes>=0.43
+indictranstoolkit
+nltk>=3.9,<4
+sentencepiece>=0.2
+protobuf
